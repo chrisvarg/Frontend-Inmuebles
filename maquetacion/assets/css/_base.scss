@@ -1,0 +1,39 @@
+@use 'variables' as v;
+
+/* ----- google fonts ----- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: v.$colorPrimary;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    color: v.$colorFont;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: v.$title;
+}
+
+h2 {
+    font-size: v.$subtitle;
+}
+
+h3 {
+    font-size: v.$subtitle;
+}
+
+
+a {
+    color: v.$colorFont;
+    text-decoration: none;
+}
