@@ -1,0 +1,26 @@
+@use 'components' as c;
+
+.main {
+    margin: 5rem 8rem;
+
+    &__login {
+        // background-color: brown;
+        left: 45vw;
+        position: absolute;
+        text-align: center;
+        top: 26rem;
+    }
+
+}
+
+.login {
+    &__formulary {
+        @include c.formulary
+    }
+}
+
+.formulary {
+    &__items {
+        width: 100%;
+    }
+}

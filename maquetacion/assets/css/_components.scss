@@ -88,3 +88,56 @@
         margin: 1rem 1.5rem;
     }
 }
+
+
+@mixin formulary {
+    background-color: v.$colorSecundary;
+    color: v.$colorFont;
+    height: 100%;
+    text-align: center;
+
+}
+
+@mixin footer {
+    margin-top: 27rem;
+    text-align: center;
+
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .menu {
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            align-items: center;
+            height: 100%;
+        }
+
+        &__items {
+            padding: 0 1rem;
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        
+        i {
+            margin-left: 1rem;
+            font-size: 3rem;
+        }
+    }
+
+    &__copyright {
+
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
